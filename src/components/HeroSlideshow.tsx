@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { ArrowRight, ChevronLeft, ChevronRight, Play, Pause } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import { useNavigate } from 'react-router-dom';
 import heroImage from '@/assets/hero-image.jpg';
 
 interface Slide {
@@ -17,6 +18,7 @@ interface Slide {
 }
 
 const HeroSlideshow: React.FC = () => {
+  const navigate = useNavigate();
   const [currentSlide, setCurrentSlide] = useState(0);
   const [isAutoPlaying, setIsAutoPlaying] = useState(true);
   const [isTransitioning, setIsTransitioning] = useState(false);
@@ -183,7 +185,7 @@ const HeroSlideshow: React.FC = () => {
             <Button 
               size="lg" 
               className="btn-modern"
-              onClick={() => window.location.href = currentSlideData.buttonAction}
+              onClick={() => navigate(currentSlideData.buttonAction)}
             >
               {currentSlideData.buttonText}
               <ArrowRight className="ml-2 h-5 w-5" />
@@ -193,7 +195,7 @@ const HeroSlideshow: React.FC = () => {
                 size="lg" 
                 variant="outline" 
                 className="btn-outline-modern"
-                onClick={() => window.location.href = currentSlideData.secondaryButtonAction!}
+                onClick={() => navigate(currentSlideData.secondaryButtonAction!)}
               >
                 {currentSlideData.secondaryButtonText}
               </Button>
