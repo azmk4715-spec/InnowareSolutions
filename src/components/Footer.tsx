@@ -224,6 +224,9 @@ const Footer = () => {
           <p className="text-sm text-muted-foreground">
             © {new Date().getFullYear()} NextGenWare Solutions. All rights reserved.
           </p>
+          <p className="text-xs text-muted-foreground/70 mt-2">
+            Educational project for Entrepreneurship course - Not a legitimate business
+          </p>
         </div>
       </div>
     </footer>

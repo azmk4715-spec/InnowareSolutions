@@ -126,6 +126,21 @@ const About = () => {
             ))}
           </div>
         </div>
+
+        {/* Educational Disclaimer */}
+        <div className="mt-16 p-6 bg-muted/50 rounded-lg border border-border">
+          <div className="text-center">
+            <h3 className="text-lg font-semibold text-muted-foreground mb-2">
+              Educational Purpose Notice
+            </h3>
+            <p className="text-sm text-muted-foreground max-w-3xl mx-auto">
+              This website is created for educational purposes as part of an Entrepreneurship course. 
+              NextGenWare Solutions is a fictional company and should not be considered as a legitimate 
+              business organization. All content, services, and information presented are for academic 
+              demonstration purposes only.
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   );
