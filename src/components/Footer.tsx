@@ -134,7 +134,7 @@ const Footer = () => {
 
               {/* Email */}
               <a
-                href="mailto:info@innoware-solutions.com"
+                href="mailto:info@nextgenware-solutions.com"
                 className="block bg-card border border-border rounded-lg p-3 hover:bg-accent transition-all duration-200 hover:shadow-md group"
               >
                 <div className="flex items-center space-x-3">
@@ -143,7 +143,7 @@ const Footer = () => {
                   </div>
                   <div className="flex-1">
                     <p className="text-sm font-medium text-foreground group-hover:text-primary transition-colors">
-                      info@innoware-solutions.com
+                      info@nextgenware-solutions.com
                     </p>
                     <p className="text-xs text-muted-foreground">Click to email</p>
                   </div>
@@ -222,7 +222,7 @@ const Footer = () => {
         {/* Bottom Section */}
         <div className="border-t border-border/50 mt-8 pt-8 text-center">
           <p className="text-sm text-muted-foreground">
-            © {new Date().getFullYear()} InnoWare Solutions. All rights reserved.
+            © {new Date().getFullYear()} NextGenWare Solutions. All rights reserved.
           </p>
         </div>
       </div>

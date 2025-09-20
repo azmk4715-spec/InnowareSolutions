@@ -24,7 +24,7 @@ const HeroSlideshow: React.FC = () => {
   const slides: Slide[] = [
     {
       id: 1,
-      title: "InnoWare Solutions",
+      title: "NextGenWare Solutions",
       subtitle: "Empowering SMEs with affordable IT solutions",
       description: "Transform your business with cutting-edge technology solutions. From web development to cloud infrastructure, we deliver comprehensive IT services that drive growth and innovation.",
       backgroundImage: heroImage,

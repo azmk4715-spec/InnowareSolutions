@@ -21,7 +21,7 @@ const TestimonialCarousel: React.FC = () => {
     {
       id: 1,
       type: 'testimonial',
-      content: "InnoWare Solutions transformed our digital infrastructure completely. Their cloud solutions helped us scale our business by 300% in just 6 months. The team's expertise and dedication are unmatched.",
+      content: "NextGenWare Solutions transformed our digital infrastructure completely. Their cloud solutions helped us scale our business by 300% in just 6 months. The team's expertise and dedication are unmatched.",
       author: "Sarah Johnson",
       role: "CEO",
       company: "TechStart Inc.",
@@ -37,7 +37,7 @@ const TestimonialCarousel: React.FC = () => {
     {
       id: 3,
       type: 'testimonial',
-      content: "The security solutions provided by InnoWare Solutions gave us complete peace of mind. Their SOC team is incredibly responsive and proactive in protecting our digital assets.",
+      content: "The security solutions provided by NextGenWare Solutions gave us complete peace of mind. Their SOC team is incredibly responsive and proactive in protecting our digital assets.",
       author: "Michael Chen",
       role: "CTO",
       company: "FinanceFlow Ltd.",
@@ -53,7 +53,7 @@ const TestimonialCarousel: React.FC = () => {
     {
       id: 5,
       type: 'testimonial',
-      content: "Working with InnoWare Solutions was a game-changer for our business. Their custom web development solutions are robust, scalable, and exactly what we needed to compete in the market.",
+      content: "Working with NextGenWare Solutions was a game-changer for our business. Their custom web development solutions are robust, scalable, and exactly what we needed to compete in the market.",
       author: "Emily Rodriguez",
       role: "Founder",
       company: "EcoTech Solutions",
@@ -76,7 +76,7 @@ const TestimonialCarousel: React.FC = () => {
     {
       id: 8,
       type: 'testimonial',
-      content: "InnoWare Solutions' consulting services helped us identify and implement the right technology stack for our business. Their strategic approach saved us months of trial and error.",
+      content: "NextGenWare Solutions' consulting services helped us identify and implement the right technology stack for our business. Their strategic approach saved us months of trial and error.",
       author: "David Kim",
       role: "Operations Director",
       company: "RetailMax Corp.",

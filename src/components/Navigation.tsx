@@ -26,7 +26,7 @@ const Navigation = () => {
           <Link to="/" className="flex items-center space-x-2">
             <Code2 className="h-8 w-8 text-primary" />
             <span className="text-xl font-bold gradient-text">
-              InnoWare Solutions
+              NextGenWare Solutions
             </span>
           </Link>
 

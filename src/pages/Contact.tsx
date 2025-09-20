@@ -24,8 +24,8 @@ const Contact = () => {
     {
       icon: Mail,
       title: "Email Us",
-      content: "info@innoware-solutions.com",
-      link: "mailto:info@innoware-solutions.com",
+      content: "info@nextgenware-solutions.com",
+      link: "mailto:info@nextgenware-solutions.com",
     },
     {
       icon: Phone,
@@ -251,7 +251,7 @@ const Contact = () => {
                   <h3 className="text-lg font-semibold">SEGi University</h3>
                 </div>
                 <p className="text-sm text-muted-foreground mb-2">Kota Damansara, Malaysia</p>
-                <p className="text-xs text-muted-foreground">InnoWare Solutions Office</p>
+                <p className="text-xs text-muted-foreground">NextGenWare Solutions Office</p>
                 <Button 
                   size="sm" 
                   className="mt-3 w-full"

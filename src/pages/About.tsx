@@ -31,7 +31,7 @@ const About = () => {
         {/* Hero Section */}
         <div className="text-center mb-16">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">
-            About <span className="gradient-text">InnoWare Solutions</span>
+            About <span className="gradient-text">NextGenWare Solutions</span>
           </h1>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
             We are a dynamic IT consulting firm dedicated to empowering small and medium 

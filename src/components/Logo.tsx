@@ -118,7 +118,7 @@ const Logo: React.FC<LogoProps> = ({
       {/* Company Text */}
       <div className="flex flex-col">
         <span className={`font-bold text-foreground ${textSizes[size]}`}>
-          InnoWare
+          NextGenWare
         </span>
         <span className={`font-medium text-muted-foreground ${textSizes[size]} text-xs`}>
           Solutions IT
